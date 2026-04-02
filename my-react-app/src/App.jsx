@@ -1,6 +1,11 @@
+import Jai from "./jai"
 function App() {
+  const username = 'jaiinderveer'
   return (
-    <h1>hello</h1>
+    <>
+      <Jai/>
+      <h1>{username} is eating</h1>
+    </>
   )
 }
 
